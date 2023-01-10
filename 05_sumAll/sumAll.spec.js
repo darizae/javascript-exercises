@@ -1,4 +1,4 @@
-/*const isValidArg = require('./sumAll')
+const {sumAll, isValidArg} = require('./sumAll');
 
 describe('isValidArg', () => {
   test('returns false for non-number parameters', () => {
@@ -17,9 +17,6 @@ describe('isValidArg', () => {
     expect(isValidArg(1.1)).toEqual(false);
   });
 });
-*/
-
-const sumAll = require('./sumAll')
 
 describe('sumAll', () => {
   test('sums numbers within the range', () => {
